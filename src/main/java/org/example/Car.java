@@ -1,7 +1,7 @@
 package org.example;
 
 public class Car extends Vehicle{
-    private double fuelEfficiency;
+    protected double fuelEfficiency;
 
     public Car(String vehicleId, String model, double fuelLevel) {
         super(vehicleId, model, fuelLevel);
