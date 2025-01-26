@@ -10,6 +10,7 @@ public class Car extends Vehicle{
 
     @Override
     public void calculateRange() {
-
+        double range = fuelLevel * fuelEfficiency;
+        System.out.println("Car " + model + " can travel " + range + " kilometers");
     }
 }
