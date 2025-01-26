@@ -5,6 +5,7 @@ public class Car extends Vehicle{
 
     public Car(String vehicleId, String model, double fuelLevel) {
         super(vehicleId, model, fuelLevel);
+        this.fuelEfficiency = fuelEfficiency;
     }
 
     @Override
