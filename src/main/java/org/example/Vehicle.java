@@ -16,6 +16,8 @@ public abstract class Vehicle {
         System.out.println("Refueled " + liters + " liters. New fuel level: " + fuelLevel + " liters.");
     }
 
+    public abstract void calculateRange();
+
 
 
 }
