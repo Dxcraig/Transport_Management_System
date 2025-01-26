@@ -1,9 +1,9 @@
 package org.example;
 
 public abstract class Vehicle {
-    private String vehicleId;
-    private String model;
-    private double fuelLevel;
+    protected String vehicleId;
+    protected String model;
+    protected double fuelLevel;
 
     public Vehicle(String vehicleId, String model, double fuelLevel) {
         this.vehicleId = vehicleId;
